@@ -1,16 +1,12 @@
 <template>
-    <MainLayout>
-        <div>Hello World!! hehe</div>
+    <div>Hello World!! hehe</div>
 
-        <div>
-            The message is {{ message }}
-        </div>
-    </MainLayout>
+    <div>
+        The message is {{ message }}
+    </div>
 </template>
 
 <script setup>
-import MainLayout from '../../Layouts/MainLayout.vue';
-
 defineProps({
     message: String
 });
